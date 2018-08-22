@@ -23,7 +23,7 @@
  */
 package io.github.karolkrasnowski.dothrow;
 
-public class And<T extends Throwable> {
+public final class And<T extends Throwable> {
 
     private final Class<T> clazz;
     private final String message;

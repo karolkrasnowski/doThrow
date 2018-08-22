@@ -23,7 +23,7 @@
  */
 package io.github.karolkrasnowski.dothrow;
 
-public class WithCause<T extends Throwable> {
+public final class WithCause<T extends Throwable> {
 
     private final Class<T> clazz;
     private final Throwable cause;

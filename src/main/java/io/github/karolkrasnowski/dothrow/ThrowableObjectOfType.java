@@ -23,7 +23,7 @@
  */
 package io.github.karolkrasnowski.dothrow;
 
-public class ThrowableObjectOfType<T extends Throwable> {
+public final class ThrowableObjectOfType<T extends Throwable> {
 
     private final Class<T> clazz;
 

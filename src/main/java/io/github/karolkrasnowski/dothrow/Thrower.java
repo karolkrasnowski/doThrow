@@ -23,7 +23,7 @@
  */
 package io.github.karolkrasnowski.dothrow;
 
-class Thrower<T extends Throwable> {
+final class Thrower<T extends Throwable> {
 
     private Class<T> clazz;
     private String message;

@@ -23,7 +23,9 @@
  */
 package io.github.karolkrasnowski.dothrow;
 
-public class ThrowableObject {
+public final class ThrowableObject {
+
+    private ThrowableObject() {}
 
     public static <T extends Throwable> ThrowableObjectOfType<T> ofType(Class<T> clazz) {
         return new ThrowableObjectOfType<>(clazz);
